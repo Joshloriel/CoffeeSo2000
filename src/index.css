@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Pacifico&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Mono", monospace;
+
+}
+
+@media (max-width: 768px) {
+  .bg-md-dark {
+      background-color: rgba(0, 0, 0, 0.8) !important; /* Adjust color as needed */
+  }
+}
+
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.pacifico-regular {
+  font-family: "Pacifico", cursive;
+  font-weight: 300;
+  font-style: normal;
+}
+
+
+.layout {
+  /* background-image: url('./assets/cafe-background.jpg'); */
+  background-color: #654321;
+  background-size: 100% 100vh;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: block;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+                    url('./assets/cafe-background.jpg');
+  min-height: 80vh;
+  background-size: 100% 100%  ;
+  background-repeat: no-repeat;
+  display: block;
+}
+
+.hero-tagline {
+  font-size: 100px;
+}
+
+@media (max-width: 640px) {
+  .hero-tagline {
+    font-size: 60px;
+  }
+}
+
+
+.bg-black-lo {
+  background-color: rgba(0, 0, 0, 0.3);
+
+}
+
+.bg-yellow-lo {
+  background-color: rgba(251, 242, 139, 0.3);
+
+}
+/* CSS for scrollbar */
+/* For Webkit browsers */
+::-webkit-scrollbar {
+  width: 8px; /* Width of the scrollbar */
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #fdecdf; /* Color of the scrollbar track */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #7a390a; /* Color of the scrollbar handle (brown) */
+  border-radius: 6px; /* Rounded corners of the handle */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #654321; /* Darker brown color when hovered */
+}
+
+.hoverable-translate-1:hover {
+  transform: scale(1.01);
+  transition: 1s;
+ 
+}
+
+.bg-kopi {
+  background-image: url("./assets/wp.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
