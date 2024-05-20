@@ -5,7 +5,7 @@ export default defineConfig({
   plugins: [react()],
   build: {
     rollupOptions: {
-      external: ['react', 'react-dom', 'bootstrap/dist/js/bootstrap.bundle.min.js'],
+      external: ['react', 'react-dom', 'bootstrap/dist/js/bootstrap.bundle.min.js', 'bootstrap/dist/css/bootstrap.min.css'],
     },
   },
 });
