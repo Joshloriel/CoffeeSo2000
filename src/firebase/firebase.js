@@ -1,3 +1,4 @@
+import React from 'react';
 // src/firebase.js
 import { initializeApp } from 'firebase/app';
 import { getAuth, GoogleAuthProvider, FacebookAuthProvider, signInWithPopup } from 'firebase/auth';
