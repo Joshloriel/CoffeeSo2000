@@ -5,11 +5,6 @@ import path from "path"
 
 export default defineConfig({
   plugins: [react()],
-  build: {
-    rollupOptions: {
-      external: ['bootstrap/dist/css/bootstrap.min.css'],
-    },
-  },
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
